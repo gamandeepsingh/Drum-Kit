@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+body{
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+font-family: cursive;
+
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 130px;
+    color: #E8E2E2;
+    text-shadow: 3px 0 black;
+}
+.set{
+    display: block;
+}
+.drum{
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: #3C486B;
+}
+button{
+    border-radius: 50%;
+    border-right-color: rgb(189, 252, 252);
+    border-left-color: #b49fda;
+    border-top-color: #bbc1bf;
+    border-bottom-color: #a4e4f4;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 black;
+    opacity: .5;
+}
+
+.w{
+    background-image: url('img/tom1.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+.a{
+    background-image: url('img/tom2.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+.s{
+    background-image: url('img/tom3.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+.d{
+    background-image: url('img/tom4.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+.j{
+    background-image: url('img/snare.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+.k{
+    background-image: url('img/crash.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+.l{
+    background-image: url('img/kick.png');
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+footer{
+    margin-top: 218px;
+}
